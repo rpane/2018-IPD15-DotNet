@@ -5,3 +5,10 @@ C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01Task2\
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01Task2\Day01Task2\obj\Debug\Day01Task2.csproj.CoreCompileInputs.cache
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01Task2\Day01Task2\obj\Debug\Day01Task2.exe
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01Task2\Day01Task2\obj\Debug\Day01Task2.pdb
+E:\C#\2018-IPD15-DotNet\Day01Task2\Day01Task2\bin\Debug\Day01Task2.exe.config
+E:\C#\2018-IPD15-DotNet\Day01Task2\Day01Task2\bin\Debug\Day01Task2.exe
+E:\C#\2018-IPD15-DotNet\Day01Task2\Day01Task2\bin\Debug\Day01Task2.pdb
+E:\C#\2018-IPD15-DotNet\Day01Task2\Day01Task2\obj\Debug\Day01Task2.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Day01Task2\Day01Task2\obj\Debug\Day01Task2.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Day01Task2\Day01Task2\obj\Debug\Day01Task2.exe
+E:\C#\2018-IPD15-DotNet\Day01Task2\Day01Task2\obj\Debug\Day01Task2.pdb

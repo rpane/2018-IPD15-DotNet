@@ -1,0 +1,7 @@
+E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\bin\Debug\Day01ManyFromFile.exe.config
+E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\bin\Debug\Day01ManyFromFile.exe
+E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\bin\Debug\Day01ManyFromFile.pdb
+E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.exe
+E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.pdb

@@ -1,0 +1,6 @@
+Person;Jerry;33
+Student;Mia;25;Pre-med;3.87
+Teacher;Larissa;34;PhysEd;11
+Person;Tim;41
+Teacher;Martha;56;Math;32
+Student;Peter;28;PhysEd;3.28
