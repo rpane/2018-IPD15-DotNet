@@ -1,0 +1,7 @@
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01\Day01\bin\Debug\Day01.exe.config
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01\Day01\bin\Debug\Day01.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01\Day01\bin\Debug\Day01.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01\Day01\obj\Debug\Day01.csprojResolveAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01\Day01\obj\Debug\Day01.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01\Day01\obj\Debug\Day01.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01\Day01\obj\Debug\Day01.pdb
