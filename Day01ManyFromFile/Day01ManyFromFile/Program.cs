@@ -11,12 +11,12 @@ namespace Day01ManyFromFile
     {
       abstract class Person
         {
-            String Name;
-            int Age;
+            public String Name;
+            public int Age;
 
             public virtual string ToString()
             {
-                return base.ToString();
+                return Name+" is "+Age+" y/o";
             }
         }
         class Student : Person
@@ -25,7 +25,7 @@ namespace Day01ManyFromFile
             Double GPA;
             public override string ToString()
             {
-                return base.ToString();
+                return Name + " is " + Age + " y/o, studing in "+Program+" with a "+GPA+" GPA";
             }
         }
 
@@ -35,7 +35,7 @@ namespace Day01ManyFromFile
             int YOP; // Years Of Experience Teaching
             public override string ToString()
             {
-                return base.ToString();
+                return Name + " is " + Age + " y/o, and has been teaching "+Subject+" for "+YOP+" years";
             }
         }
         static void Main(string[] args)
