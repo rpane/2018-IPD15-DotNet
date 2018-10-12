@@ -1,0 +1,7 @@
+D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\bin\Debug\Day02JustNumbers.exe.config
+D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\bin\Debug\Day02JustNumbers.exe
+D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\bin\Debug\Day02JustNumbers.pdb
+D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.csprojAssemblyReference.cache
+D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.csproj.CoreCompileInputs.cache
+D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.exe
+D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.pdb
