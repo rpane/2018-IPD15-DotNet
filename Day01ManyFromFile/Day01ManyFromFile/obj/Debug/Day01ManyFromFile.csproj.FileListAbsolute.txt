@@ -5,3 +5,10 @@ E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyF
 E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.csproj.CoreCompileInputs.cache
 E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.exe
 E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\bin\Debug\Day01ManyFromFile.exe.config
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\bin\Debug\Day01ManyFromFile.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\bin\Debug\Day01ManyFromFile.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.csprojResolveAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01ManyFromFile\Day01ManyFromFile\obj\Debug\Day01ManyFromFile.pdb

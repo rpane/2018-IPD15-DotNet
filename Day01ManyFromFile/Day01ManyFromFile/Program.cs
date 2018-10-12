@@ -8,42 +8,13 @@ using System.Threading.Tasks;
 namespace Day01ManyFromFile
 {
     class Program
-    {
-      class Person
-        {
-            public String Name;
-            public int Age;
-
-            public virtual string ToString()
-            {
-                return Name+" is a person "+Age+" y/o.";
-            }
-        }
-        class Student : Person
-        {
-            public String Program;
-            public Double GPA;
-            public override string ToString()
-            {
-                return Name + " is a student " + Age + " y/o, studying in "+Program+" with a "+GPA+" GPA.";
-            }
-        }
-
-        class Teacher : Person
-        {
-            public String Subject;
-            public int YOP; // Years Of Experience Teaching
-            public override string ToString()
-            {
-                return Name + " is a teacher " + Age + " y/o, and has been teaching "+Subject+" for "+YOP+" years.";
-            }
-        }
+    {      
         static void Main(string[] args)
         {
             List<Person> People = new List<Person>();
             try
             {
-                string[] lines = File.ReadAllLines(@"E:\C#\2018-IPD15-DotNet\Day01ManyFromFile\many.txt");
+                string[] lines = File.ReadAllLines(@"..\..\many.txt");
                 foreach (string line in lines)
                 {
                     string[] words = line.Split(';');
@@ -61,6 +32,9 @@ namespace Day01ManyFromFile
                     {
                         Person e = new Teacher() { Name = words[1], Age = int.Parse(words[2]), Subject = words[3], YOP = int.Parse(words[4]) };
                         People.Add(e);
+                    }
+                    else {
+
                     }
 
 
