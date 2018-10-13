@@ -8,7 +8,6 @@ namespace Day02StudentsGrades
 {
     class Student
     {
-
         public Student(string name)
         {
             _name = name;
@@ -21,7 +20,7 @@ namespace Day02StudentsGrades
                 return _name;
             }
         }
-        private List<double> gradeList;
+        private List<double> gradeList= new List<double>();
         
         public void addGrade(double grade)
         {
@@ -35,6 +34,11 @@ namespace Day02StudentsGrades
                 // compute average here and return
                 return gradeList.Average();
             }
+        }
+
+        public override string ToString()
+        {
+            return _name+" has GPA "+Average; 
         }
     }
 }
