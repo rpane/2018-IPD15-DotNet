@@ -5,3 +5,10 @@ D:\Programming\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\obj\
 D:\Programming\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\obj\Debug\Day02StudentsGrades.csproj.CoreCompileInputs.cache
 D:\Programming\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\obj\Debug\Day02StudentsGrades.exe
 D:\Programming\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\obj\Debug\Day02StudentsGrades.pdb
+E:\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\obj\Debug\Day02StudentsGrades.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\obj\Debug\Day02StudentsGrades.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\obj\Debug\Day02StudentsGrades.exe
+E:\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\obj\Debug\Day02StudentsGrades.pdb
+E:\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\bin\Debug\Day02StudentsGrades.exe.config
+E:\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\bin\Debug\Day02StudentsGrades.exe
+E:\C#\2018-IPD15-DotNet\Day02StudentsGrades\Day02StudentsGrades\bin\Debug\Day02StudentsGrades.pdb

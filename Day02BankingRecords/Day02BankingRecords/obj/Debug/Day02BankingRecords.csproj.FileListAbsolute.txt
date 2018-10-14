@@ -1,0 +1,7 @@
+E:\C#\2018-IPD15-DotNet\Day02BankingRecords\Day02BankingRecords\bin\Debug\Day02BankingRecords.exe.config
+E:\C#\2018-IPD15-DotNet\Day02BankingRecords\Day02BankingRecords\bin\Debug\Day02BankingRecords.exe
+E:\C#\2018-IPD15-DotNet\Day02BankingRecords\Day02BankingRecords\bin\Debug\Day02BankingRecords.pdb
+E:\C#\2018-IPD15-DotNet\Day02BankingRecords\Day02BankingRecords\obj\Debug\Day02BankingRecords.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Day02BankingRecords\Day02BankingRecords\obj\Debug\Day02BankingRecords.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Day02BankingRecords\Day02BankingRecords\obj\Debug\Day02BankingRecords.exe
+E:\C#\2018-IPD15-DotNet\Day02BankingRecords\Day02BankingRecords\obj\Debug\Day02BankingRecords.pdb

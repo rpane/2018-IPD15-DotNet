@@ -40,7 +40,7 @@ namespace Day02StudentsGrades
         {
         }*/
 
-        static double letterToNumberGrade(string strGrade) { }
+        
         public static double letterToGpa(String letter)
         {
             switch (letter)
