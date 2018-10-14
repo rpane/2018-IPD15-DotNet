@@ -8,6 +8,7 @@ namespace Day02BankingRecords
 {
     class Program
     {
+        static List<AccountTransaction> transactionList = new List<AccountTransaction>();
         static void Main(string[] args)
         {
         }
