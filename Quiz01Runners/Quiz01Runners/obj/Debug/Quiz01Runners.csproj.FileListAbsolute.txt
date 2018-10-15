@@ -1,0 +1,7 @@
+E:\C#\2018-IPD15-DotNet\Quiz01Runners\Quiz01Runners\obj\Debug\Quiz01Runners.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Quiz01Runners\Quiz01Runners\obj\Debug\Quiz01Runners.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Quiz01Runners\Quiz01Runners\bin\Debug\Quiz01Runners.exe.config
+E:\C#\2018-IPD15-DotNet\Quiz01Runners\Quiz01Runners\bin\Debug\Quiz01Runners.exe
+E:\C#\2018-IPD15-DotNet\Quiz01Runners\Quiz01Runners\bin\Debug\Quiz01Runners.pdb
+E:\C#\2018-IPD15-DotNet\Quiz01Runners\Quiz01Runners\obj\Debug\Quiz01Runners.exe
+E:\C#\2018-IPD15-DotNet\Quiz01Runners\Quiz01Runners\obj\Debug\Quiz01Runners.pdb
