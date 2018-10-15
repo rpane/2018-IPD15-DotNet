@@ -5,3 +5,10 @@ D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\
 D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.csproj.CoreCompileInputs.cache
 D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.exe
 D:\Programming\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.pdb
+E:\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\bin\Debug\Day02JustNumbers.exe.config
+E:\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\bin\Debug\Day02JustNumbers.exe
+E:\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\bin\Debug\Day02JustNumbers.pdb
+E:\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.exe
+E:\C#\2018-IPD15-DotNet\Day02JustNumbers\Day02JustNumbers\obj\Debug\Day02JustNumbers.pdb
