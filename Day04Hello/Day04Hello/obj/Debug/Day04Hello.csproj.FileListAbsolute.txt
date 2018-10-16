@@ -1,0 +1,15 @@
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\bin\Debug\Day04Hello.exe.config
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\bin\Debug\Day04Hello.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\bin\Debug\Day04Hello.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\Day04Hello.csprojResolveAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\MainWindow.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\App.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\Day04Hello_MarkupCompile.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\Day04Hello_MarkupCompile.lref
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\MainWindow.baml
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\Day04Hello.g.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\Day04Hello.Properties.Resources.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\Day04Hello.csproj.GenerateResource.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\Day04Hello.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\Day04Hello.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04Hello\Day04Hello\obj\Debug\Day04Hello.pdb

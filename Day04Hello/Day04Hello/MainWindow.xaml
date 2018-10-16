@@ -1,0 +1,15 @@
+﻿<Window x:Class="Day04Hello.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Day04Hello"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    <Grid Margin="0,0,2,1">
+        <Label Content="Your Name:" HorizontalAlignment="Left" Height="32" Margin="57,102,0,0" VerticalAlignment="Top" Width="105"/>
+        <TextBox Name="tbName" HorizontalAlignment="Left" Height="32" Margin="239,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="149"/>
+        <Button Click="Button_Click" Content="Say Hello" HorizontalAlignment="Left" Height="42" Margin="116,219,0,0" VerticalAlignment="Top" Width="209"/>
+
+    </Grid>
+</Window>

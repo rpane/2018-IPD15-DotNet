@@ -1,0 +1,15 @@
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\bin\Debug\Day04HelloToFile.exe.config
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\bin\Debug\Day04HelloToFile.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\bin\Debug\Day04HelloToFile.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\Day04HelloToFile.csprojResolveAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\MainWindow.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\App.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\Day04HelloToFile_MarkupCompile.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\Day04HelloToFile_MarkupCompile.lref
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\MainWindow.baml
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\Day04HelloToFile.g.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\Day04HelloToFile.Properties.Resources.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\Day04HelloToFile.csproj.GenerateResource.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\Day04HelloToFile.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\Day04HelloToFile.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04HelloToFile\Day04HelloToFile\obj\Debug\Day04HelloToFile.pdb
