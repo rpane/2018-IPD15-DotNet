@@ -1,0 +1,5 @@
+Frank;18-35;Cat,Dog;Asia;30
+Test;18-35;Dog;Africa;31.2275449101796
+Jeff;36 and up;Dog;Europe;35
+Jeff;18-35;Dog;Africa;19.8982035928144
+Jeff;18-35;Dog;Asia;22.3652694610778°C

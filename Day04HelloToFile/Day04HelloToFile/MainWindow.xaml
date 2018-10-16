@@ -9,8 +9,8 @@
     <Grid>
         <Label Content="Name" HorizontalAlignment="Left" Height="30" Margin="37,22,0,0" VerticalAlignment="Top" Width="65"/>
         <Label Content="Age" HorizontalAlignment="Left" Height="34" Margin="37,65,0,0" VerticalAlignment="Top" Width="65"/>
-        <TextBox Name="tbName" HorizontalAlignment="Left" Height="30" Margin="107,22,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="197" LostFocus="tbName_LostFocus"/>
-        <TextBox Name="tbAge" HorizontalAlignment="Left" Height="34" Margin="107,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="102"/>
+        <TextBox Name="tbName" HorizontalAlignment="Left" Height="19" Margin="107,22,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="102" LostFocus="tbName_LostFocus"/>
+        <TextBox Name="tbAge" HorizontalAlignment="Left" Height="21" Margin="107,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="102" LostFocus="tbAge_LostFocus"/>
         <Button Name="btnHello" Click="btnHello_Click" Content="Say Hello" HorizontalAlignment="Left" Height="34" Margin="57,138,0,0" VerticalAlignment="Top" Width="112"/>
         <Button  Name="btnSave" Click="btnSave_Click"  Content="Save &amp; Clear" HorizontalAlignment="Left" Height="34" Margin="220,138,0,0" VerticalAlignment="Top" Width="122"/>
 

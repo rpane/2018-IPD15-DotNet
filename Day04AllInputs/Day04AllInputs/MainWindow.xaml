@@ -1,0 +1,36 @@
+﻿<Window x:Class="Day04AllInputs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Day04AllInputs"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="270.455" Width="417.045">
+    <Grid>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.407,-0.39"/>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Height="23" Margin="66,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Age:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Pets:" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top"/>
+        <Label Content="Continent of Residence" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top"/>
+        <Label Content="Prefered temp °C" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="slTemp" HorizontalAlignment="Left" Margin="148,143,0,0" VerticalAlignment="Top" Width="178" RenderTransformOrigin="-0.011,-0.015" Maximum="35" Minimum="15" Value="25"/>
+        <Button x:Name="btnRegister" Click="btnRegister_Click" Content="Register Me" HorizontalAlignment="Left" Margin="166,189,0,0" VerticalAlignment="Top" Width="75"/>
+        <RadioButton x:Name="rbBelow18" Content="Below 18" HorizontalAlignment="Left" Margin="58,47,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rb18_35" Content="18-35" HorizontalAlignment="Left" Margin="148,47,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rb36_" Content="36 and Up" HorizontalAlignment="Left" Margin="233,47,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbCat" Content="Cat" HorizontalAlignment="Left" Margin="54,73,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbDog" Content="Dog" HorizontalAlignment="Left" Margin="130,73,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbOther" Content="Other" HorizontalAlignment="Left" Margin="201,73,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbContinents" HorizontalAlignment="Left" Margin="167,103,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="Africa"/>
+            <ComboBoxItem Content="Antartica"/>
+            <ComboBoxItem Content="Asia"/>
+            <ComboBoxItem Content="Europe"/>
+            <ComboBoxItem Content="North America"/>
+            <ComboBoxItem Content="South America"/>
+            <ComboBoxItem Content="Austrailia"/>
+        </ComboBox>
+        <TextBox x:Name="tbSliderVal" HorizontalAlignment="Left" Height="23" Margin="331,147,0,0" TextWrapping="Wrap" Text="{Binding ElementName=slTemp,Path=Value}" VerticalAlignment="Top" Width="39"/>
+
+    </Grid>
+</Window>

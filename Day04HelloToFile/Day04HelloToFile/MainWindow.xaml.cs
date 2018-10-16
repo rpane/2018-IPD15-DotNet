@@ -35,10 +35,25 @@ namespace Day04HelloToFile
             {
                 throw new Exception("Cannot have a semicolon");
             }
+            if (int.Parse(tbAge.Text) < 1 | int.Parse(tbAge.Text) > 150)
+            {
+                throw new Exception("Age needs to be between 1-150");
+            }
+
+            MessageBox.Show(string.Format("Hello {0}, you are {1} y/o.",tbName.Text,tbAge.Text));
         }
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
+            if (tbName.Text == "" | tbAge.Text =="")
+            {
+                throw new Exception("Fill required fields");
+            }
+            string text = string.Format("{0};{1}", tbName.Text, tbAge.Text);
+            System.IO.File.AppendAllText(@"..\..\people.txt", text +Environment.NewLine);
+
+            tbName.Text = "";
+            tbAge.Text = "";
 
         }
 
@@ -51,16 +66,15 @@ namespace Day04HelloToFile
             if (tbName.Text.Contains(";"))
             {
                 MessageBox.Show("Cannot have a semicolon");
-            }
+            }            
         }
 
-        /*
-         * if (tbName.Text.Length <2 || tbName.Text.Length >30)
+        private void tbAge_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (int.Parse(tbAge.Text) < 1 | int.Parse(tbAge.Text) > 150)
             {
-                MessageBox.Show("Name is too short");
+                MessageBox.Show("Age needs to be between 1-150");
             }
-         */
-
-
+        }
     }
 }
