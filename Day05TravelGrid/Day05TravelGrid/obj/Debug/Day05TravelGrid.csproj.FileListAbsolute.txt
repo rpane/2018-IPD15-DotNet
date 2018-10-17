@@ -1,0 +1,15 @@
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\bin\Debug\Day05TravelGrid.exe.config
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\bin\Debug\Day05TravelGrid.exe
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\bin\Debug\Day05TravelGrid.pdb
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\Day05TravelGrid.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\MainWindow.g.cs
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\App.g.cs
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\Day05TravelGrid_MarkupCompile.cache
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\Day05TravelGrid_MarkupCompile.lref
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\MainWindow.baml
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\Day05TravelGrid.g.resources
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\Day05TravelGrid.Properties.Resources.resources
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\Day05TravelGrid.csproj.GenerateResource.Cache
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\Day05TravelGrid.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\Day05TravelGrid.exe
+E:\C#\2018-IPD15-DotNet\Day05TravelGrid\Day05TravelGrid\obj\Debug\Day05TravelGrid.pdb

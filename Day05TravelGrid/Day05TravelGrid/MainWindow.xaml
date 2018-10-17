@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Day05TravelGrid"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="403.333" Width="620">
+    <Grid Margin="0,0,2,-2">
+        <Button x:Name="btnSaveSel" Content="Save Selected" HorizontalAlignment="Left" Height="39" Margin="22,17,0,0" VerticalAlignment="Top" Width="189" Click="btnSaveSel_Click"/>
+        <ListView x:Name="lvTravel" HorizontalAlignment="Left" Height="258" Margin="22,81,0,0" VerticalAlignment="Top" Width="277">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="Destination:" HorizontalAlignment="Left" Margin="337,63,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="337,94,0,0" VerticalAlignment="Top"/>
+        <Label Content="Passport No:" HorizontalAlignment="Left" Margin="337,125,0,0" VerticalAlignment="Top"/>
+        <Label Content="Departure" HorizontalAlignment="Left" Margin="337,156,0,0" VerticalAlignment="Top"/>
+        <Label Content="Return" HorizontalAlignment="Left" Margin="337,187,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAddTrip" Content="Add Trip" HorizontalAlignment="Left" Margin="392,273,0,0" VerticalAlignment="Top" Width="147" Height="48" Click="btnAddTrip_Click"/>
+        <TextBox x:Name="tbDestination" HorizontalAlignment="Left" Height="23" Margin="415,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" LostFocus="tbDestination_LostFocus"/>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Height="23" Margin="386,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" LostFocus="tbName_LostFocus"/>
+        <TextBox x:Name="tbPassportNo" HorizontalAlignment="Left" Height="23" Margin="419,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" LostFocus="tbPassportNo_LostFocus"/>
+        <TextBox x:Name="tbDeparture" HorizontalAlignment="Left" Height="23" Margin="405,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" LostFocus="tbDeparture_LostFocus"/>
+        <TextBox x:Name="tbReturn" HorizontalAlignment="Left" Height="23" Margin="387,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" LostFocus="tbReturn_LostFocus"/>
+
     </Grid>
 </Window>
