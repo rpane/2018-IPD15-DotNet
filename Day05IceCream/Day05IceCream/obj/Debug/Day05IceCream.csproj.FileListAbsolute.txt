@@ -1,0 +1,15 @@
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\bin\Debug\Day05IceCream.exe.config
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\bin\Debug\Day05IceCream.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\bin\Debug\Day05IceCream.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\Day05IceCream.csprojResolveAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\MainWindow.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\App.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\Day05IceCream_MarkupCompile.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\Day05IceCream_MarkupCompile.lref
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\MainWindow.baml
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\Day05IceCream.g.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\Day05IceCream.Properties.Resources.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\Day05IceCream.csproj.GenerateResource.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\Day05IceCream.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\Day05IceCream.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05IceCream\Day05IceCream\obj\Debug\Day05IceCream.pdb
