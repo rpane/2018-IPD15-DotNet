@@ -13,3 +13,18 @@ E:\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.c
 E:\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.exe
 E:\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.pdb
 E:\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.csprojResolveAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\bin\Debug\Day04AllInputs.exe.config
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\bin\Debug\Day04AllInputs.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\bin\Debug\Day04AllInputs.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.csprojResolveAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\MainWindow.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\App.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs_MarkupCompile.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs_MarkupCompile.lref
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\MainWindow.baml
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.g.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.Properties.Resources.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.csproj.GenerateResource.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day04AllInputs\Day04AllInputs\obj\Debug\Day04AllInputs.pdb

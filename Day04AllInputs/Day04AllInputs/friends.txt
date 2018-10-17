@@ -3,3 +3,4 @@ Test;18-35;Dog;Africa;31.2275449101796
 Jeff;36 and up;Dog;Europe;35
 Jeff;18-35;Dog;Africa;19.8982035928144
 Jeff;18-35;Dog;Asia;22.3652694610778°C
+Fan;Below 18;Cat,Dog,Other;Africa;25°C

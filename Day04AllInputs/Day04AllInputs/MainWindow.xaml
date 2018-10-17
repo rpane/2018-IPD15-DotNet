@@ -13,11 +13,11 @@
         <Label Content="Pets:" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top"/>
         <Label Content="Continent of Residence" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top"/>
         <Label Content="Prefered temp °C" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top"/>
-        <Slider x:Name="slTemp" HorizontalAlignment="Left" Margin="148,143,0,0" VerticalAlignment="Top" Width="178" RenderTransformOrigin="-0.011,-0.015" Maximum="35" Minimum="15" Value="25"/>
+        <Slider x:Name="slTemp" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="148,143,0,0" VerticalAlignment="Top" Width="178" RenderTransformOrigin="-0.011,-0.015" Maximum="35" Minimum="15" Value="25" AutoToolTipPlacement="TopLeft" SmallChange="1"/>
         <Button x:Name="btnRegister" Click="btnRegister_Click" Content="Register Me" HorizontalAlignment="Left" Margin="166,189,0,0" VerticalAlignment="Top" Width="75"/>
-        <RadioButton x:Name="rbBelow18" Content="Below 18" HorizontalAlignment="Left" Margin="58,47,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="rb18_35" Content="18-35" HorizontalAlignment="Left" Margin="148,47,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="rb36_" Content="36 and Up" HorizontalAlignment="Left" Margin="233,47,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbBelow18" Checked="rbBelow18_Checked" GroupName="Age" Content="Below 18" HorizontalAlignment="Left" Margin="58,47,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rb18_35" Checked="rbBelow18_Checked" GroupName="Age" Content="18-35" HorizontalAlignment="Left" Margin="148,47,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rb36_" Checked="rbBelow18_Checked" GroupName="Age" Content="36 and Up" HorizontalAlignment="Left" Margin="233,47,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="cbCat" Content="Cat" HorizontalAlignment="Left" Margin="54,73,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="cbDog" Content="Dog" HorizontalAlignment="Left" Margin="130,73,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="cbOther" Content="Other" HorizontalAlignment="Left" Margin="201,73,0,0" VerticalAlignment="Top"/>
@@ -30,7 +30,7 @@
             <ComboBoxItem Content="South America"/>
             <ComboBoxItem Content="Austrailia"/>
         </ComboBox>
-        <TextBox x:Name="tbSliderVal" HorizontalAlignment="Left" Height="23" Margin="331,147,0,0" TextWrapping="Wrap" Text="{Binding ElementName=slTemp,Path=Value}" VerticalAlignment="Top" Width="39"/>
+        <Label x:Name="lblSliderVal" Content="{Binding ElementName=slTemp,Path=Value}" HorizontalAlignment="Left" Margin="341,135,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
