@@ -16,8 +16,8 @@
                 </GridView>                
             </ListView.View>
             <ListView.ContextMenu>
-                <ContextMenu>
-                    
+                <ContextMenu Name="ctxMenuMain" StaysOpen="true" Background="WhiteSmoke">
+                    <MenuItem Header="Delete" Click="MenuItem_Click"/>
                 </ContextMenu>
             </ListView.ContextMenu>
         </ListView>

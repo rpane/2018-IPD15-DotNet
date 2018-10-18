@@ -23,10 +23,11 @@ namespace Day05TravelGrid
     /// </summary>
     public partial class MainWindow : Window
     {
-       
+        List<Trip> trips = new List<Trip>();
         public MainWindow()
         {
             InitializeComponent();
+            lvTravel.ItemsSource = trips;
           
         }
 
@@ -37,9 +38,9 @@ namespace Day05TravelGrid
             String passport = tbPassportNo.Text;
             DateTime depart = DateTime.Parse(tbDeparture.Text);
             DateTime returnDate = DateTime.Parse(tbReturn.Text);
-            Trip a = new Trip(destination, name, passport, depart, returnDate);                  
-            lvTravel.Items.Add(a.ToString());
-            //Check how to use ItemSource
+            Trip a = new Trip(destination, name, passport, depart, returnDate);
+            trips.Add(a);
+            lvTravel.Items.Refresh();          
             
         }
 

@@ -31,5 +31,25 @@ namespace Day05PeopleBinding
         public string Name { get => name; set => name = value; }
         public int Age { get => age; set => age = value; }
 
+        public static void checkNameValid(string name)
+        {
+            if (name.Length < 2 || name.Length > 50)
+            {
+                throw new ArgumentOutOfRangeException("Name must be 2-50 characters long");
+            }
+        }
+
+        public static void checkAgeValid(int age)
+        {
+            if (age < 1 || age > 150)
+            {
+                throw new ArgumentOutOfRangeException("Age must be 1-150");
+            }
+        }
+
+        override public String ToString()
+        {
+            return string.Format("{0}: {1} is {2}", Id, Name, Age);
+        }
     }
 }

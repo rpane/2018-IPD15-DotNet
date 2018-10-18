@@ -40,6 +40,8 @@ namespace Day05PeopleBinding
             try
             {
                 Person p = lvPeople.SelectedItem as Person;
+                Person.checkNameValid(name);
+                Person.checkAgeValid(age);
                 p.Name = name;
                 p.Age = age;
                 // FIXME: if name is valid but age is not, then partial update will occur
@@ -67,6 +69,8 @@ namespace Day05PeopleBinding
             }
             try
             {
+                Person.checkNameValid(name);
+                Person.checkAgeValid(age);
                 Person p = new Person(name, age);
                 items.Add(p);
                 lvPeople.Items.Refresh(); // give list view a nudge that data changed
@@ -90,9 +94,23 @@ namespace Day05PeopleBinding
         private void lvPeople_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             Person p = lvPeople.SelectedItem as Person;
+            if (p == null) return;
             lblID.Content = p.Id + "";
             tbName.Text = p.Name;
             tbAge.Text = p.Age + "";
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            if (lvPeople.SelectedIndex == -1) return;
+            Person p = lvPeople.SelectedItem as Person;
+            var result = MessageBox.Show("Are you sure you want to delete this item?\n" + p, "Delete confirmation",
+                MessageBoxButton.OKCancel, MessageBoxImage.Question, MessageBoxResult.Cancel);
+            if (result == MessageBoxResult.OK)
+            {
+                items.Remove(p);
+                lvPeople.Items.Refresh();
+            }
         }
     }
 }
