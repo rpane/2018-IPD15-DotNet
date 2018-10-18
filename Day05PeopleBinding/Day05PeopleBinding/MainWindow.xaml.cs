@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -20,24 +21,78 @@ namespace Day05PeopleBinding
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<Person> items = new List<Person>();
         public MainWindow()
         {
-            InitializeComponent();
-            List<Person> items = new List<Person>();
-            items.Add(new Person("John Doe",42));
-            items.Add(new Person("Jane Doe",39));
-            items.Add(new Person("Sammy Doe",7));
+            InitializeComponent();                     
             lvPeople.ItemsSource = items;
         }
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
-
+            string name = tbName.Text;
+            int age = 0;
+            if (!int.TryParse(tbAge.Text, out age))
+            {
+                MessageBox.Show(this, "Age must be numerical", "Input error");
+                return;
+            }
+            try
+            {
+                Person p = lvPeople.SelectedItem as Person;
+                p.Name = name;
+                p.Age = age;
+                // FIXME: if name is valid but age is not, then partial update will occur
+                lvPeople.Items.Refresh(); // give list view a nudge that data changed
+                tbName.Text = "";
+                tbAge.Text = "";
+                lblID.Content = "...";
+            }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show(this, ex.Message, "Input error");
+                return;
+            }
         }
+      
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
+            string name = tbName.Text;
+            int age = 0;
+            if (!int.TryParse(tbAge.Text, out age))
+            {
+                MessageBox.Show(this, "Age must be numerical", "Input error");
+                return;
+            }
+            try
+            {
+                Person p = new Person(name, age);
+                items.Add(p);
+                lvPeople.Items.Refresh(); // give list view a nudge that data changed
+                tbName.Text = "";
+                tbAge.Text = "";
+                lblID.Content = "...";
+            }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show(this, ex.Message, "Input error");
+                return;
+            }
+        }
 
+        private void tbAge_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            Regex regex = new Regex("[^0-9]+");
+            e.Handled = regex.IsMatch(e.Text);
+        }
+
+        private void lvPeople_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Person p = lvPeople.SelectedItem as Person;
+            lblID.Content = p.Id + "";
+            tbName.Text = p.Name;
+            tbAge.Text = p.Age + "";
         }
     }
 }

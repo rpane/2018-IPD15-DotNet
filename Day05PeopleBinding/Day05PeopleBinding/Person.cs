@@ -8,17 +8,25 @@ namespace Day05PeopleBinding
 {
     class Person
     {
-        static int id = 10;
+        private static int count;//Total count of ids
         string name;
         int age;
+        int id;//Id
 
         public Person(string name, int age)
         {
-            this.name = name;
-            this.age = age;
+            Name = name;
+            Age = age;
+            id = ++count;
         }
-
-        public static int Id { get => id++; }
+        
+        public int Id
+        {
+            get
+            {
+                return id;
+            }
+        }
 
         public string Name { get => name; set => name = value; }
         public int Age { get => age; set => age = value; }

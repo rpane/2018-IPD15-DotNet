@@ -13,3 +13,18 @@ E:\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05Peo
 E:\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding.csproj.CoreCompileInputs.cache
 E:\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding.exe
 E:\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\bin\Debug\Day05PeopleBinding.exe.config
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\bin\Debug\Day05PeopleBinding.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\bin\Debug\Day05PeopleBinding.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding.csprojResolveAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\MainWindow.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\App.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding_MarkupCompile.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding_MarkupCompile.lref
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\MainWindow.baml
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding.g.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding.Properties.Resources.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding.csproj.GenerateResource.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day05PeopleBinding\Day05PeopleBinding\obj\Debug\Day05PeopleBinding.pdb
