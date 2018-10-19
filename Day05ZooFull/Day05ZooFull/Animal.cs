@@ -48,6 +48,23 @@ namespace Day05ZooFull
             }
         }      
 
+        public static void checkSpeciesValid(string species)
+        {
+            String[] allSpecies = { "Lion", "Elephant", "Hippo", "Ape", "Zebra", "Bird" };
+            bool match = false;
+            for(int i = 0; i < allSpecies.Length; i++)
+            {
+                if(allSpecies[i] == species)
+                {
+                    match = true;
+                }
+            }
+            if(match == false)
+            {
+                throw new ArgumentOutOfRangeException("INVALID SPECIES");
+            }
+        }
+
         public override string ToString()
         {
             return Name+";"+Species+";"+Age+";"+Weight;

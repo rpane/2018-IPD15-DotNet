@@ -121,6 +121,10 @@ namespace Day05ZooFull
                     string spec = words[1];
                     int age = int.Parse(words[2]);
                     double weight = double.Parse(words[3]);
+                    Animal.checkAgeValid(age);
+                    Animal.checkNameValid(name);
+                    Animal.checkWeightValid(weight);
+                    Animal.checkSpeciesValid(spec);
                     Animal x = new Animal(name, spec, age, weight);
                     openList.Add(x);
                     lvSpeciesName.ItemsSource = openList;
