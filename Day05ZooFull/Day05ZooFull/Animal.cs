@@ -21,11 +21,56 @@ namespace Day05ZooFull
             Weight = weight;
         }
 
-        public string Name { get => name; set => name = value; }
-        public string Species { get => species; set => species = value; }
-        public int Age { get => age; set => age = value; }
-        public double Weight { get => weight; set => weight = value; }
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                checkNameValid(value);
+                name = value;
+            }
+        }
+        public string Species
+        {
+            get
+            {
+                return species;
+            }
+            set
+            {
+                checkSpeciesValid(value);
+                species = value;
+            }
+        }
+        public int Age
+        {
+            get
+            {
+                return age;
+            }
+            set
+            {
+                checkAgeValid(value);
+                age = value;
+            }
+        }
 
+        public double Weight
+        {
+            get
+            {
+                return weight;
+            }
+            set
+            {
+                checkWeightValid(value);
+                weight = value;
+            }
+        }
+       
         public static void checkAgeValid(int age)
         {
             if (age < 0 || age > 500)

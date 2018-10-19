@@ -106,7 +106,7 @@ namespace Day05ZooFull
 
         private void miOpen_Click(object sender, RoutedEventArgs e)
         {
-            List<Animal> openList = new List<Animal>();
+            animals.Clear();            
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Title = "Open Zoo File";
             ofd.Filter = " ZOO files |*.zoo";
@@ -126,8 +126,7 @@ namespace Day05ZooFull
                     Animal.checkWeightValid(weight);
                     Animal.checkSpeciesValid(spec);
                     Animal x = new Animal(name, spec, age, weight);
-                    openList.Add(x);
-                    lvSpeciesName.ItemsSource = openList;
+                    animals.Add(x);                   
                     lvSpeciesName.Items.Refresh();
                 }
 
