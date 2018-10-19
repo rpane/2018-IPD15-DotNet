@@ -5,3 +5,10 @@ C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day07FirstD
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day07FirstDB\Day07FirstDB\obj\Debug\Day07FirstDB.csproj.CoreCompileInputs.cache
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day07FirstDB\Day07FirstDB\obj\Debug\Day07FirstDB.exe
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day07FirstDB\Day07FirstDB\obj\Debug\Day07FirstDB.pdb
+E:\C#\2018-IPD15-DotNet\Day07FirstDB\Day07FirstDB\bin\Debug\Day07FirstDB.exe.config
+E:\C#\2018-IPD15-DotNet\Day07FirstDB\Day07FirstDB\bin\Debug\Day07FirstDB.exe
+E:\C#\2018-IPD15-DotNet\Day07FirstDB\Day07FirstDB\bin\Debug\Day07FirstDB.pdb
+E:\C#\2018-IPD15-DotNet\Day07FirstDB\Day07FirstDB\obj\Debug\Day07FirstDB.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Day07FirstDB\Day07FirstDB\obj\Debug\Day07FirstDB.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Day07FirstDB\Day07FirstDB\obj\Debug\Day07FirstDB.exe
+E:\C#\2018-IPD15-DotNet\Day07FirstDB\Day07FirstDB\obj\Debug\Day07FirstDB.pdb
