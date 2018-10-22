@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Day08NewPeopleDB"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="302.64" Width="525">
     <Grid>
-        <ListView x:Name="lvPeople" HorizontalAlignment="Left" Height="187" Margin="35,51,0,0" VerticalAlignment="Top" Width="209">
+        <ListView x:Name="lvPeople" HorizontalAlignment="Left" Height="187" Margin="35,51,0,0" VerticalAlignment="Top" Width="209" SelectionChanged="lvPeople_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="#" Width="25" DisplayMemberBinding="{Binding Id}" />

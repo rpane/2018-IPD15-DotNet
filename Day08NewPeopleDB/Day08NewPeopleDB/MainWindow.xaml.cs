@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,13 +23,18 @@ namespace Day08NewPeopleDB
     /// </summary>
     public partial class MainWindow : Window
     {
-        Database db = new Database();
-        
+        Database db;        
 
         public MainWindow()
         {
-
-            InitializeComponent();            
+            try { 
+            InitializeComponent();
+            db = new Database();
+            }catch(SqlException ex)
+            {
+                MessageBox.Show(this, "Error connecting to database\n" + ex.Message, "Database Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                Environment.Exit(1);
+            }
             lvPeople.ItemsSource = db.GetAllPeople();
         }
     
@@ -42,7 +48,8 @@ namespace Day08NewPeopleDB
                 db.DeletePerson(x.Id);
                 
             }
-            lvPeople.Items.Refresh();
+            
+            refreshLV();
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
@@ -51,22 +58,41 @@ namespace Day08NewPeopleDB
             int age = int.Parse(tbAge.Text);
             double height = slidHeight.Value;
             Person x = new Person(name, age, height);
-            db.AddPerson(x);
-            lvPeople.Items.Refresh();
+            db.AddPerson(x);            
             refreshLV();
 
         }
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
-
+            Person z = lvPeople.SelectedItem as Person;
+            z.Name = tbName.Text;
+            z.Age = int.Parse(tbAge.Text);
+            z.Height = slidHeight.Value;           
+            db.UpdatePerson(z);
+            refreshLV();
         }
 
-        public void refreshLV()
+        void refreshLV()
         {
+
             tbAge.Text = "";
             tbName.Text = "";
-            slidHeight.Value = 165;            
+            slidHeight.Value = 165;
+            List<Person> list = db.GetAllPeople();
+            lvPeople.ItemsSource = list;
+                     
+        }
+
+        private void lvPeople_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Person x = lvPeople.SelectedItem as Person;
+            if (x == null) return;
+            lblID.Content = x.Id;
+            tbName.Text = x.Name;
+            tbAge.Text = x.Age.ToString();
+            slidHeight.Value = x.Height;
+
         }
     }
 }

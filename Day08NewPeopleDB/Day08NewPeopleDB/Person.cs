@@ -25,5 +25,10 @@ namespace Day08NewPeopleDB
         public string Name { get => name; set => name = value; }
         public int Age { get => age; set => age = value; }
         public double Height { get => height; set => height = value; }
+
+        public override string ToString()
+        {
+            return Id+","+Name+","+Age+","+Height;
+        }
     }
 }

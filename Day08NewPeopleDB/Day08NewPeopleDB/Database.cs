@@ -9,11 +9,16 @@ namespace Day08NewPeopleDB
 {
     class Database
     {
-        const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"E:\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true";
-        SqlConnection conn = new SqlConnection(CONN_STRING);
+        //Home
+        //const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"E:\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true";
+        //School
+        const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30";
+
+        SqlConnection conn;
         
         public Database()
         {
+            conn = new SqlConnection(CONN_STRING);
             conn.Open();
         }
 
@@ -36,8 +41,7 @@ namespace Day08NewPeopleDB
                             Person a = new Person(name, age, height);
                             a.Id = id;
                         people.Add(a);
-                        }
-                        
+                        }                        
                        
                     }
 
@@ -74,13 +78,14 @@ namespace Day08NewPeopleDB
 
         public void UpdatePerson(Person P)
         {
-            using (SqlCommand updatePerson = new SqlCommand("UPDATE NewPeople SET Name = @Name, Age = @Age, Height = @Height", conn))
+            using (SqlCommand updatePerson = new SqlCommand("UPDATE NewPeople SET Name = @Name, Age = @Age, Height = @Height WHERE Id = @Id", conn))
             {
-                
+                updatePerson.Parameters.AddWithValue("@Id", P.Id);
                 updatePerson.Parameters.AddWithValue("@Name", P.Name);
                 updatePerson.Parameters.AddWithValue("@Age", P.Age);
                 updatePerson.Parameters.AddWithValue("@Height", P.Height);
+                updatePerson.ExecuteNonQuery();
             }
-        }
+        }      
     }
 }
