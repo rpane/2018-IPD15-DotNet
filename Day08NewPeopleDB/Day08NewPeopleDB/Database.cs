@@ -17,11 +17,9 @@ namespace Day08NewPeopleDB
             conn.Open();
         }
 
-        public List<Person> GetAllPeople
-        {            
-            
-            get
-            {
+        public List<Person> GetAllPeople()
+        {
+            List<Person> people = new List<Person>();        
                 
                 using(SqlCommand selectAll = new SqlCommand("SELECT * FROM NewPeople",conn))
                 {
@@ -37,17 +35,16 @@ namespace Day08NewPeopleDB
                             double height = (double)reader["Height"];
                             Person a = new Person(name, age, height);
                             a.Id = id;
-                            GetAllPeople.Add(a);
-                            
+                        people.Add(a);
                         }
                         
                        
                     }
 
                 }
-                return GetAllPeople;
+                return people;
 
-            }
+            
            
         }
 

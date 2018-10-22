@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,13 +22,14 @@ namespace Day08NewPeopleDB
     /// </summary>
     public partial class MainWindow : Window
     {
-        Database db = new Database();     
+        Database db = new Database();
+        
+
         public MainWindow()
         {
 
-            InitializeComponent();
-            lvPeople.ItemsSource = db.GetAllPeople;
-            lvPeople.Items.Refresh();
+            InitializeComponent();            
+            lvPeople.ItemsSource = db.GetAllPeople();
         }
     
         private void miDelete_Click(object sender, RoutedEventArgs e)
@@ -37,7 +40,9 @@ namespace Day08NewPeopleDB
             if (result == MessageBoxResult.OK)
             {
                 db.DeletePerson(x.Id);
+                
             }
+            lvPeople.Items.Refresh();
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
@@ -61,7 +66,7 @@ namespace Day08NewPeopleDB
         {
             tbAge.Text = "";
             tbName.Text = "";
-            slidHeight.Value = 165;
+            slidHeight.Value = 165;            
         }
     }
 }
