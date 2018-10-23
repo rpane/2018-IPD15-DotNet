@@ -1,0 +1,17 @@
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\bin\Debug\Day08PeopleAgain.exe.config
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\bin\Debug\Day08PeopleAgain.exe
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\bin\Debug\Day08PeopleAgain.pdb
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\AddEditDialog.g.cs
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\MainWindow.g.cs
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\App.g.cs
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain_MarkupCompile.cache
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain_MarkupCompile.lref
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\AddEditDialog.baml
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\MainWindow.baml
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.g.resources
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.Properties.Resources.resources
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.csproj.GenerateResource.Cache
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.exe
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.pdb

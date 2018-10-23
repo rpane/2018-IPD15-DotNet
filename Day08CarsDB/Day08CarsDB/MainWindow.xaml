@@ -1,0 +1,35 @@
+﻿<Window x:Class="Day08CarsDB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Day08CarsDB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">               
+                <MenuItem x:Name="miExport" Header="_Export to csv.." Click="miExport_Click" />
+                <Separator />
+                <MenuItem x:Name="miExit" Header="_Exit" Click="miExit_Click" />
+            </MenuItem>
+            <MenuItem x:Name="miAdd" Header="_Add Vehicle" Click="miAdd_Click" />
+        </Menu>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock x:Name="tbStatus" Text="..." />
+            </StatusBarItem>
+        </StatusBar>
+        <ListBox x:Name="lbCars" Height="279" VerticalAlignment="Top" Width="487" MouseDoubleClick="lbPeople_MouseDoubleClick">
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem x:Name="miDelete" Header="Delete" Click="miDelete_Click"/>
+                    <MenuItem x:Name="miEdit" Header="Edit" Click="miEdit_Click"/>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+        </ListBox>
+    </DockPanel>
+    
+        
+    
+</Window>
