@@ -32,6 +32,7 @@ namespace Day08PeopleAgain
                 lblId.Content = currPerson.Id + "";
                 tbName.Text = currPerson.Name;
                 tbAge.Text = currPerson.Age + "";
+                cbGender.Text = currPerson.Gender + "";
             }
         }
 
@@ -44,23 +45,31 @@ namespace Day08PeopleAgain
         {
             string name = tbName.Text;
             int age;
+
             if (!int.TryParse(tbAge.Text, out age))
             {
                 MessageBox.Show("Age must be an integer value");
                 return;
+            }
+            Person.GenderEnum gender;
+            string genderStr = cbGender.Text;
+            if (!Enum.TryParse<Person.GenderEnum>(genderStr, out gender))
+            {
+                throw new InvalidCastException("Enum value invalid: " + genderStr);
             }
             // FIXME: do a better job at verifying input values
             try
             {
                 if (currPerson == null)
                 {
-                    Person p = new Person() { Name = name, Age = age };
+                    Person p = new Person() { Name = name, Age = age, Gender= gender};
                     Globals.db.AddPerson(p);
                 }
                 else
                 {
                     currPerson.Name = name;
                     currPerson.Age = age;
+                    currPerson.Gender = gender;
                     Globals.db.UpdatePerson(currPerson);
                 }
                 this.DialogResult = true;

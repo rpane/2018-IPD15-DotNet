@@ -16,11 +16,16 @@
                 <Separator />
                 <MenuItem Header="E_xit" />
             </MenuItem>
+            <MenuItem Header="_Sort By">
+                <MenuItem x:Name="miSortID" Header="_Id" Click="miSortID_Click"/>
+                <MenuItem x:Name="miSortName" Header="_Name" Click="miSortName_Click"/>
+                <MenuItem x:Name="miSortAge" Header="_Age" Click="miSortAge_Click"/>
+            </MenuItem>
             <MenuItem Header="Add _Person" Click="MenuItem_AddPersonClick" />
         </Menu>
         <StatusBar DockPanel.Dock="Bottom">
             <StatusBarItem>
-                <TextBlock Name="lblCursorPosition" />
+                <TextBlock Name="lblStatus" />
             </StatusBarItem>
         </StatusBar>
         <ListView Margin="10" Name="lvPeople" MouseDoubleClick="lvPeople_MouseDoubleClick">
@@ -31,9 +36,10 @@
             </ListView.ContextMenu>
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="#" Width="30" DisplayMemberBinding="{Binding Id}" />
+                    <GridViewColumn x:Name="gvID" Header="#" Width="30" DisplayMemberBinding="{Binding Id}" />
                     <GridViewColumn Header="Name" Width="250" DisplayMemberBinding="{Binding Name}" />
                     <GridViewColumn Header="Age" Width="100" DisplayMemberBinding="{Binding Age}" />
+                    <GridViewColumn Header="Gender" Width="100" DisplayMemberBinding="{Binding Gender}" />
                 </GridView>
             </ListView.View>
         </ListView>

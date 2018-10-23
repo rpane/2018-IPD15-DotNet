@@ -10,9 +10,9 @@ namespace Day08PeopleAgain
     class Database
     {
         //Home
-        const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"E:\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true";
+        //const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"E:\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true";
         //School
-        //const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30";
+        const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30";
 
         SqlConnection conn;
 
@@ -36,7 +36,13 @@ namespace Day08PeopleAgain
                         int id = (int)reader["Id"];
                         string name = (string)reader["Name"];
                         int age = (int)reader["Age"];
-                        Person p = new Person() { Id = id, Name = name, Age = age };
+                        string genderStr = (string)reader["Gender"];
+                        Person.GenderEnum gender;
+                        if(!Enum.TryParse<Person.GenderEnum>( genderStr, out gender))
+                        {
+                            throw new InvalidCastException("Enum value invalid: " +genderStr);
+                        }
+                        Person p = new Person() { Id = id, Name = name, Age = age, Gender = gender };
                         result.Add(p);
                     }
                     return result;
@@ -47,10 +53,11 @@ namespace Day08PeopleAgain
         public int AddPerson(Person p)
         {
             using (SqlCommand insertCommand = new SqlCommand(
-                "INSERT INTO People (Name, Age) OUTPUT Inserted.ID VALUES (@Name, @Age) ", conn))
+                "INSERT INTO People (Name, Age , Gender) OUTPUT Inserted.ID VALUES (@Name, @Age, @Gender) ", conn))
             {
                 insertCommand.Parameters.AddWithValue("@Name", p.Name);
                 insertCommand.Parameters.AddWithValue("@Age", p.Age);
+                insertCommand.Parameters.AddWithValue("@Gender", p.Gender.ToString());
                 int Id = (int)insertCommand.ExecuteScalar();
                 p.Id = Id;
                 Console.WriteLine("Insert ID=" + Id);
@@ -61,11 +68,12 @@ namespace Day08PeopleAgain
         public void UpdatePerson(Person p)
         {
             using (SqlCommand updateCommand = new SqlCommand(
-                "UPDATE People SET Name=@Name, Age=@Age WHERE Id=@Id", conn))
+                "UPDATE People SET Name=@Name, Age=@Age, Gender=@Gender WHERE Id=@Id", conn))
             {
                 updateCommand.Parameters.AddWithValue("@Id", p.Id);
                 updateCommand.Parameters.AddWithValue("@Name", p.Name);
                 updateCommand.Parameters.AddWithValue("@Age", p.Age);
+                updateCommand.Parameters.AddWithValue("@Gender", p.Gender.ToString());
                 updateCommand.ExecuteNonQuery();
             }
         }

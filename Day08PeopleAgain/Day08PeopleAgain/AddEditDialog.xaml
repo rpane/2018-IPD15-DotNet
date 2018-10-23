@@ -13,8 +13,14 @@
         <Label Name="lblId"  Content="..." HorizontalAlignment="Left" Margin="118,10,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBox Name="tbName" HorizontalAlignment="Left" Height="23" Margin="118,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox Name="tbAge" HorizontalAlignment="Left" Height="23" Margin="118,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button Click="Button_CancelClick" Content="Cancel" HorizontalAlignment="Left" Margin="29,125,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Click="Button_SaveClick"  Content="Save" HorizontalAlignment="Left" Margin="163,125,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="Button_CancelClick" Content="Cancel" HorizontalAlignment="Left" Margin="29,169,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="Button_SaveClick"  Content="Save" HorizontalAlignment="Left" Margin="163,169,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Gender:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,103,0,0" Width="103"/>
+        <ComboBox x:Name="cbGender" HorizontalAlignment="Left" Margin="118,107,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem>NA</ComboBoxItem>
+            <ComboBoxItem>Female</ComboBoxItem>
+            <ComboBoxItem>Male</ComboBoxItem>
+        </ComboBox>
 
     </Grid>
 </Window>

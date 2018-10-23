@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Day08CarsDB"
         mc:Ignorable="d"
-        Title="AddEditDialog" Height="300" Width="300">
+        Title="AddEditDialog" Height="300" Width="300"
+        WindowStartupLocation="CenterOwner">
     <Grid>
         <Label Content="Id:" HorizontalAlignment="Left" Margin="26,18,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblID" Content="" HorizontalAlignment="Left" Margin="54,18,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.154,-0.091"/>

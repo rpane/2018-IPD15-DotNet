@@ -15,3 +15,20 @@ E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleA
 E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.csproj.CoreCompileInputs.cache
 E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.exe
 E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\bin\Debug\Day08PeopleAgain.exe.config
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\bin\Debug\Day08PeopleAgain.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\bin\Debug\Day08PeopleAgain.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\AddEditDialog.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\MainWindow.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\App.g.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain_MarkupCompile.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain_MarkupCompile.lref
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\AddEditDialog.baml
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\MainWindow.baml
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.g.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.Properties.Resources.resources
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.csproj.GenerateResource.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.exe
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08PeopleAgain\Day08PeopleAgain\obj\Debug\Day08PeopleAgain.csprojResolveAssemblyReference.cache

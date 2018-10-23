@@ -28,6 +28,7 @@ namespace Day08PeopleAgain
                 InitializeComponent();
                 Globals.db = new Database();
                 RefreshList();
+                lblStatus.Text = "";
             }
             catch (SqlException ex)
             {
@@ -93,6 +94,27 @@ namespace Day08PeopleAgain
                     MessageBox.Show(this, ex.Message, "Database error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
+        }
+
+        private void miSortID_Click(object sender, RoutedEventArgs e)
+        {
+            List<Person> list = Globals.db.GetAllPeople();
+            List<Person> sorted = list.OrderBy(Person => Person.Id).ToList(); 
+            lvPeople.ItemsSource = sorted;
+        }
+
+        private void miSortName_Click(object sender, RoutedEventArgs e)
+        {
+            List<Person> list = Globals.db.GetAllPeople();
+            List<Person> sorted = list.OrderBy(Person => Person.Name).ToList();
+            lvPeople.ItemsSource = sorted;
+        }
+
+        private void miSortAge_Click(object sender, RoutedEventArgs e)
+        {
+            List<Person> list = Globals.db.GetAllPeople();
+            List<Person> sorted = list.OrderBy(Person => Person.Age).ToList();
+            lvPeople.ItemsSource = sorted;
         }
     }
 }
