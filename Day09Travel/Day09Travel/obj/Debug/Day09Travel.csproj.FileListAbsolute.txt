@@ -1,0 +1,17 @@
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\bin\Debug\Day09Travel.exe.config
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\bin\Debug\Day09Travel.exe
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\bin\Debug\Day09Travel.pdb
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\Day09Travel.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\AddEditDialog.g.cs
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\MainWindow.g.cs
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\App.g.cs
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\Day09Travel_MarkupCompile.cache
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\Day09Travel_MarkupCompile.lref
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\AddEditDialog.baml
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\MainWindow.baml
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\Day09Travel.g.resources
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\Day09Travel.Properties.Resources.resources
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\Day09Travel.csproj.GenerateResource.Cache
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\Day09Travel.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\Day09Travel.exe
+E:\C#\2018-IPD15-DotNet\Day09Travel\Day09Travel\obj\Debug\Day09Travel.pdb

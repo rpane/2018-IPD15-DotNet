@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Day08PeopleAgain"
         mc:Ignorable="d"
-        Title="AddEditDialog" Height="300" Width="300">
+        Title="AddEditDialog" Height="300" Width="300"
+        WindowStartupLocation="CenterOwner">
     <Grid>
         <Label Content="Id:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="103"/>
         <Label Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,41,0,0" Width="103"/>

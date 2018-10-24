@@ -10,9 +10,9 @@ namespace Day08CarsDB
     class Database
     {
         //Home
-        //const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"E:\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true";
+        const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"E:\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true";
         //School
-        const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30";
+        //const string CONN_STRING = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\Database for C#\\FirstDB.mdf\";Integrated Security=True;Connect Timeout=30";
 
         SqlConnection conn;
 
@@ -47,7 +47,7 @@ namespace Day08CarsDB
         public void AddCar(Cars c)
         {
             using (SqlCommand insertCommand = new SqlCommand(
-                "INSERT INTO Cars (makeModel, engineSize,fuelType) OUTPUT Inserted.ID VALUES (@makeModel, @engineSize, @fuelType) ", conn))
+                "INSERT INTO Cars (makeModel, engineSize,fuelType) VALUES (@makeModel, @engineSize, @fuelType) ", conn))
             {
                 insertCommand.Parameters.AddWithValue("@makeModel", c.MakeModel);
                 insertCommand.Parameters.AddWithValue("@engineSize", c.EngineSize);
