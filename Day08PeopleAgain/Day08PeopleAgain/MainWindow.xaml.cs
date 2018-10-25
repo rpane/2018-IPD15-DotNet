@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,14 +22,37 @@ namespace Day08PeopleAgain
     /// </summary>
     public partial class MainWindow : Window
     {
+        /******************* Delegate ********************/
+        public delegate void StatusUpdater(String str);
+        public StatusUpdater UpdateStatus;
+
+        public void UpdateStatusBar(String msg)
+        {
+            tbStatus.Text = msg;
+        }
+
+        public void SaveStatusHistoryToFileWithTimestamp(String status)
+        {
+            string ts = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
+            File.AppendAllText("status.txt", ts + " "+status+ "\n");
+        }
+
+        /************************************************/
         public MainWindow()
         {
+            UpdateStatus = UpdateStatusBar;
+            UpdateStatus += SaveStatusHistoryToFileWithTimestamp;
+
             try
             {
                 InitializeComponent();
                 Globals.db = new Database();
                 RefreshList();
-                lblStatus.Text = "";
+                if(UpdateStatus != null)
+                {
+                    UpdateStatus("Program Started");
+                }
+                
             }
             catch (SqlException ex)
             {
@@ -56,8 +80,8 @@ namespace Day08PeopleAgain
             AddEditDialog dlg = new AddEditDialog(this);
             if (dlg.ShowDialog() == true)
             {
-                RefreshList();
-                MessageBox.Show("Success!");
+                RefreshList();                
+                UpdateStatus("Added Person");
             }
         }
 
@@ -69,8 +93,8 @@ namespace Day08PeopleAgain
             AddEditDialog dlg = new AddEditDialog(this, currPerson);
             if (dlg.ShowDialog() == true)
             {
-                RefreshList();
-                MessageBox.Show("Success!");
+                RefreshList();                
+                UpdateStatus("Person Updated");
             }
         }
 
@@ -88,6 +112,7 @@ namespace Day08PeopleAgain
                 {
                     Globals.db.DeletePerson(currPerson.Id);
                     RefreshList();
+                    UpdateStatus("Person Deleted");
                 }
                 catch (SqlException ex)
                 {
@@ -101,6 +126,7 @@ namespace Day08PeopleAgain
             List<Person> list = Globals.db.GetAllPeople();
             List<Person> sorted = list.OrderBy(Person => Person.Id).ToList(); 
             lvPeople.ItemsSource = sorted;
+            UpdateStatus("Sorted by ID");
         }
 
         private void miSortName_Click(object sender, RoutedEventArgs e)
@@ -108,6 +134,7 @@ namespace Day08PeopleAgain
             List<Person> list = Globals.db.GetAllPeople();
             List<Person> sorted = list.OrderBy(Person => Person.Name).ToList();
             lvPeople.ItemsSource = sorted;
+            UpdateStatus("Sorted by Name");
         }
 
         private void miSortAge_Click(object sender, RoutedEventArgs e)
@@ -115,6 +142,9 @@ namespace Day08PeopleAgain
             List<Person> list = Globals.db.GetAllPeople();
             List<Person> sorted = list.OrderBy(Person => Person.Age).ToList();
             lvPeople.ItemsSource = sorted;
+            UpdateStatus("Sorted by Age");
         }
+              
+        
     }
 }

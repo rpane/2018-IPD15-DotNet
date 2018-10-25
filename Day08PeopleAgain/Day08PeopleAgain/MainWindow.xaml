@@ -25,7 +25,7 @@
         </Menu>
         <StatusBar DockPanel.Dock="Bottom">
             <StatusBarItem>
-                <TextBlock Name="lblStatus" />
+                <TextBlock x:Name="tbStatus" Text=""/>
             </StatusBarItem>
         </StatusBar>
         <ListView Margin="10" Name="lvPeople" MouseDoubleClick="lvPeople_MouseDoubleClick">
