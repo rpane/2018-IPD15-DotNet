@@ -6,27 +6,32 @@ namespace Dayx01Indexer
 {
     class PrimeArray
     {
-                   
+       /*            
         public bool this[int index]
         {
             get
             {
                 return isPrime(index);
             }
-        }
+        }*/
         
-        /*
+       
         public long this[int index]
         {
             get
             {
-                if (index < 0 && index >= strArr.Length)
-                    throw new IndexOutOfRangeException("Cannot store more than 10 objects");
+                int count = 0;
+                int i;
+              for(i = 2; count < index; ++i)
+                {
+                    if (isPrime(i))
+                        ++count;
+                }
 
-                return ;
+                return i-1;
             }
         }
-        */
+        
 
 
         private bool isPrime(long num)

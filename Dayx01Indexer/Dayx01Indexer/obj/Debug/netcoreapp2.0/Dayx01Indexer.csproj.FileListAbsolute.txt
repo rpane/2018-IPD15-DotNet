@@ -9,3 +9,14 @@ C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Index
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\obj\Debug\netcoreapp2.0\Dayx01Indexer.AssemblyInfo.cs
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\obj\Debug\netcoreapp2.0\Dayx01Indexer.dll
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\obj\Debug\netcoreapp2.0\Dayx01Indexer.pdb
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\bin\Debug\netcoreapp2.0\Dayx01Indexer.deps.json
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\bin\Debug\netcoreapp2.0\Dayx01Indexer.runtimeconfig.json
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\bin\Debug\netcoreapp2.0\Dayx01Indexer.runtimeconfig.dev.json
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\bin\Debug\netcoreapp2.0\Dayx01Indexer.dll
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\bin\Debug\netcoreapp2.0\Dayx01Indexer.pdb
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\obj\Debug\netcoreapp2.0\Dayx01Indexer.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\obj\Debug\netcoreapp2.0\Dayx01Indexer.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\obj\Debug\netcoreapp2.0\Dayx01Indexer.AssemblyInfoInputs.cache
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\obj\Debug\netcoreapp2.0\Dayx01Indexer.AssemblyInfo.cs
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\obj\Debug\netcoreapp2.0\Dayx01Indexer.dll
+E:\C#\2018-IPD15-DotNet\Dayx01Indexer\Dayx01Indexer\obj\Debug\netcoreapp2.0\Dayx01Indexer.pdb
