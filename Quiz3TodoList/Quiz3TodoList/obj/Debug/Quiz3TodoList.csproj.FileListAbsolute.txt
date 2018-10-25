@@ -15,3 +15,20 @@ C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Quiz3TodoLi
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList.csproj.CoreCompileInputs.cache
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList.exe
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList.pdb
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\bin\Debug\Quiz3TodoList.exe.config
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\bin\Debug\Quiz3TodoList.exe
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\bin\Debug\Quiz3TodoList.pdb
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\AddEditTodo.g.cs
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\MainWindow.g.cs
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\App.g.cs
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList_MarkupCompile.cache
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList_MarkupCompile.lref
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\AddEditTodo.baml
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\MainWindow.baml
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList.g.resources
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList.Properties.Resources.resources
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList.csproj.GenerateResource.Cache
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList.exe
+E:\C#\2018-IPD15-DotNet\Quiz3TodoList\Quiz3TodoList\obj\Debug\Quiz3TodoList.pdb
