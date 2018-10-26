@@ -28,7 +28,7 @@ namespace Day01PeopleFromFile
 
             try
             {
-                string[] lineArray = File.ReadAllLines(@"..\..\..\people.txt");
+                string[] lineArray = File.ReadAllLines("people.txt");
                 foreach (string line in lineArray)
                 {
                     string[] split = line.Split(";");
