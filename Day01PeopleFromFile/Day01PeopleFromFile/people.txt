@@ -1,0 +1,8 @@
+Jerry;33;167
+Mark;64;174
+Joe;2;201
+Mary;23;173
+Frank;32;165
+Mary;76;190
+Mary;84;152
+Frank;51;185

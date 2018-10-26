@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\2018-IPD15-DotNet\\Dayx01Indexer\\Dayx01Indexer\\Dayx01Indexer.csproj",
-      "projectName": "Dayx01Indexer",
-      "projectPath": "C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\2018-IPD15-DotNet\\Dayx01Indexer\\Dayx01Indexer\\Dayx01Indexer.csproj",
+      "projectUniqueName": "C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\2018-IPD15-DotNet\\Day01PeopleFromFile\\Day01PeopleFromFile\\Day01PeopleFromFile.csproj",
+      "projectName": "Day01PeopleFromFile",
+      "projectPath": "C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\2018-IPD15-DotNet\\Day01PeopleFromFile\\Day01PeopleFromFile\\Day01PeopleFromFile.csproj",
       "packagesPath": "C:\\Users\\0639300\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\2018-IPD15-DotNet\\Dayx01Indexer\\Dayx01Indexer\\obj\\",
+      "outputPath": "C:\\Users\\0639300\\OneDrive - John Abbott College\\C#\\2018-IPD15-DotNet\\Day01PeopleFromFile\\Day01PeopleFromFile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

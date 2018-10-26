@@ -1,0 +1,11 @@
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\bin\Debug\netcoreapp2.0\Day01PeopleFromFile.deps.json
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\bin\Debug\netcoreapp2.0\Day01PeopleFromFile.runtimeconfig.json
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\bin\Debug\netcoreapp2.0\Day01PeopleFromFile.runtimeconfig.dev.json
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\bin\Debug\netcoreapp2.0\Day01PeopleFromFile.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\bin\Debug\netcoreapp2.0\Day01PeopleFromFile.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\obj\Debug\netcoreapp2.0\Day01PeopleFromFile.csprojResolveAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\obj\Debug\netcoreapp2.0\Day01PeopleFromFile.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\obj\Debug\netcoreapp2.0\Day01PeopleFromFile.AssemblyInfoInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\obj\Debug\netcoreapp2.0\Day01PeopleFromFile.AssemblyInfo.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\obj\Debug\netcoreapp2.0\Day01PeopleFromFile.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day01PeopleFromFile\Day01PeopleFromFile\obj\Debug\netcoreapp2.0\Day01PeopleFromFile.pdb
