@@ -7,4 +7,4 @@ Portugal;England;3;2
 England;France;2;4
 England;Spain;2;3
 Portugal;Italy;2;3
-Protugal;Germany;4;5
+Portugal;Germany;4;5

@@ -1,0 +1,7 @@
+E:\C#\2018-IPD15-DotNet\DayX02Teams\DayX02Teams\bin\Debug\DayX02Teams.exe.config
+E:\C#\2018-IPD15-DotNet\DayX02Teams\DayX02Teams\bin\Debug\DayX02Teams.exe
+E:\C#\2018-IPD15-DotNet\DayX02Teams\DayX02Teams\bin\Debug\DayX02Teams.pdb
+E:\C#\2018-IPD15-DotNet\DayX02Teams\DayX02Teams\obj\Debug\DayX02Teams.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\DayX02Teams\DayX02Teams\obj\Debug\DayX02Teams.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\DayX02Teams\DayX02Teams\obj\Debug\DayX02Teams.exe
+E:\C#\2018-IPD15-DotNet\DayX02Teams\DayX02Teams\obj\Debug\DayX02Teams.pdb
