@@ -1,0 +1,17 @@
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\bin\Debug\netcoreapp2.1\ConverterTester.deps.json
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\bin\Debug\netcoreapp2.1\ConverterTester.runtimeconfig.json
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\bin\Debug\netcoreapp2.1\ConverterTester.runtimeconfig.dev.json
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\bin\Debug\netcoreapp2.1\ConverterTester.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\bin\Debug\netcoreapp2.1\ConverterTester.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\bin\Debug\netcoreapp2.1\DayX03TestedConverter.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\bin\Debug\netcoreapp2.1\DayX03TestedConverter.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\obj\Debug\netcoreapp2.1\ConverterTester.csprojAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\obj\Debug\netcoreapp2.1\ConverterTester.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\obj\Debug\netcoreapp2.1\ConverterTester.AssemblyInfoInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\obj\Debug\netcoreapp2.1\ConverterTester.AssemblyInfo.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\obj\Debug\netcoreapp2.1\ConverterTester.csproj.CopyComplete
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\obj\Debug\netcoreapp2.1\ConverterTester.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\DayX03TestedConverter\ConverterTester\obj\Debug\netcoreapp2.1\ConverterTester.pdb

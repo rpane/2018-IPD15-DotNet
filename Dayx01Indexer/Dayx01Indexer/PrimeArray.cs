@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dayx01Indexer
 {
-    class PrimeArray
+    public class PrimeArray
     {
        /*            
         public bool this[int index]
@@ -18,8 +18,13 @@ namespace Dayx01Indexer
        
         public long this[int index]
         {
+            
             get
             {
+                if(index < 1)
+                {
+                    throw new ArgumentOutOfRangeException("Cannot be less than 1");
+                }
                 int count = 0;
                 int i;
               for(i = 2; count < index; ++i)

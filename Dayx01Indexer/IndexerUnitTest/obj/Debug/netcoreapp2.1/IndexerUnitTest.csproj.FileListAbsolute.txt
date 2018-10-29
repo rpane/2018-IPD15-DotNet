@@ -1,0 +1,17 @@
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\bin\Debug\netcoreapp2.1\IndexerUnitTest.deps.json
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\bin\Debug\netcoreapp2.1\IndexerUnitTest.runtimeconfig.json
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\bin\Debug\netcoreapp2.1\IndexerUnitTest.runtimeconfig.dev.json
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\bin\Debug\netcoreapp2.1\IndexerUnitTest.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\bin\Debug\netcoreapp2.1\IndexerUnitTest.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\bin\Debug\netcoreapp2.1\Dayx01Indexer.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\bin\Debug\netcoreapp2.1\Dayx01Indexer.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\obj\Debug\netcoreapp2.1\IndexerUnitTest.csprojAssemblyReference.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\obj\Debug\netcoreapp2.1\IndexerUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\obj\Debug\netcoreapp2.1\IndexerUnitTest.AssemblyInfoInputs.cache
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\obj\Debug\netcoreapp2.1\IndexerUnitTest.AssemblyInfo.cs
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\obj\Debug\netcoreapp2.1\IndexerUnitTest.csproj.CopyComplete
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\obj\Debug\netcoreapp2.1\IndexerUnitTest.dll
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Dayx01Indexer\IndexerUnitTest\obj\Debug\netcoreapp2.1\IndexerUnitTest.pdb
