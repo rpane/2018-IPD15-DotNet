@@ -1,0 +1,2 @@
+E:\C#\2018-IPD15-DotNet\DayX03TestedConverter\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\DayX03TestedConverter\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache

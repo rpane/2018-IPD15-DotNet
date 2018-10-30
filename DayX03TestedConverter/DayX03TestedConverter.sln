@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2048
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayX03TestedConverter", "DayX03TestedConverter\DayX03TestedConverter.csproj", "{88524F67-15F0-4558-A0B8-668C0D7A75FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayX03TestedConverter", "DayX03TestedConverter\DayX03TestedConverter.csproj", "{88524F67-15F0-4558-A0B8-668C0D7A75FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConverterTester", "ConverterTester\ConverterTester.csproj", "{CFA7E001-3BA2-4740-9998-811E048DA8BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject2", "UnitTestProject2\UnitTestProject2.csproj", "{C5402970-4637-49A2-8B5A-7549236D78A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{88524F67-15F0-4558-A0B8-668C0D7A75FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88524F67-15F0-4558-A0B8-668C0D7A75FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88524F67-15F0-4558-A0B8-668C0D7A75FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CFA7E001-3BA2-4740-9998-811E048DA8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFA7E001-3BA2-4740-9998-811E048DA8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFA7E001-3BA2-4740-9998-811E048DA8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFA7E001-3BA2-4740-9998-811E048DA8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5402970-4637-49A2-8B5A-7549236D78A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5402970-4637-49A2-8B5A-7549236D78A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5402970-4637-49A2-8B5A-7549236D78A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5402970-4637-49A2-8B5A-7549236D78A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,13 @@
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\b\UnitTestProject\bin\Debug\NUnit3.TestAdapter.dll
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\b\UnitTestProject\bin\Debug\NUnit3.TestAdapter.pdb
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\b\UnitTestProject\bin\Debug\nunit.engine.dll
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\b\UnitTestProject\bin\Debug\nunit.engine.api.dll
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\b\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\b\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\b\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\b\UnitTestProject\bin\Debug\UnitTestProject.dll
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\b\UnitTestProject\bin\Debug\UnitTestProject.pdb
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\i\UnitTestProject\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\i\UnitTestProject\Debug\UnitTestProject.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\i\UnitTestProject\Debug\UnitTestProject.dll
+E:\C#\2018-IPD15-DotNet\Day08PeopleAgain\.vs\Day08PeopleAgain\lut\0\i\UnitTestProject\Debug\UnitTestProject.pdb

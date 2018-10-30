@@ -25,8 +25,18 @@ namespace DayX02Teams
                     {
                         Team x = new Team(split[0]);
                         Team y = new Team(split[1]);
-                        fifa.Add(split[0],x);
-                        fifa.Add(split[1], y);
+
+                        Team t;
+                        if (fifa.TryGetValue(split[0],out t) == false)
+                        {
+                            fifa.Add(split[0], x);
+                        }
+                        if (fifa.TryGetValue(split[1], out t) == false)
+                        {
+                            fifa.Add(split[1], y);
+                        }
+                        
+                        
                     }
                     catch (ArgumentException)
                     {
