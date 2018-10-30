@@ -1,0 +1,6 @@
+E:\C#\2018-IPD15-DotNet\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\C#\2018-IPD15-DotNet\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\C#\2018-IPD15-DotNet\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\C#\2018-IPD15-DotNet\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\C#\2018-IPD15-DotNet\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\C#\2018-IPD15-DotNet\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
