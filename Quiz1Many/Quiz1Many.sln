@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz1Many", "Quiz1Many\Quiz1Many.csproj", "{16D6EC81-C3F9-45FA-8ACC-CC6143B5C061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibTesting", "FibTesting\FibTesting.csproj", "{346EBDFC-2EBB-4614-BABA-2BCEE199A510}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16D6EC81-C3F9-45FA-8ACC-CC6143B5C061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D6EC81-C3F9-45FA-8ACC-CC6143B5C061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D6EC81-C3F9-45FA-8ACC-CC6143B5C061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D6EC81-C3F9-45FA-8ACC-CC6143B5C061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346EBDFC-2EBB-4614-BABA-2BCEE199A510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346EBDFC-2EBB-4614-BABA-2BCEE199A510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346EBDFC-2EBB-4614-BABA-2BCEE199A510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346EBDFC-2EBB-4614-BABA-2BCEE199A510}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B24BC92-3C9B-4796-B6B7-8668DF627C12}
+	EndGlobalSection
+EndGlobal
