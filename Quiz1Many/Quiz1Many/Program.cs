@@ -19,7 +19,18 @@ namespace Quiz1Many
                 Console.WriteLine(i + " : " + fibNumbers[i]);
             }
 
-                      
+            /*
+            Random rnd = new Random();
+            if(rnd.Next(2) == 0)
+            {
+                fibNumbers.FibLogger += displayMessage;
+            }
+            else
+            {
+                fibNumbers.FibLogger += saveMessage;
+            }
+            fibNumbers.FibLogger += saveMessage;
+            */
             //displayMessage(n, fib, msg);
             //saveMessage(n,fib,msg);
             //readLogsFromFile();
@@ -41,7 +52,7 @@ namespace Quiz1Many
         {
             try
             {
-                string[] lineArray = File.ReadAllLines(@"..\..\records.txt");
+                string[] lineArray = File.ReadAllLines(@"..\..\..\records.txt");
                 foreach(string line in lineArray)
                 {
                     string[] split = line.Split(';');
