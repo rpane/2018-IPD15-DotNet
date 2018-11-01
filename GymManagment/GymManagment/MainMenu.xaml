@@ -13,7 +13,7 @@
         <Button Content="Create Schedule" HorizontalAlignment="Left" Margin="319,110,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
         <Button Content="Check-In" HorizontalAlignment="Left" Margin="28,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
         <Button Content="Renew Member" HorizontalAlignment="Left" Margin="125,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
-        <Button Content="Receipts" HorizontalAlignment="Left" Margin="222,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
+        <Button Content="Logs" HorizontalAlignment="Left" Margin="222,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
         <Button Content="Sign Out" HorizontalAlignment="Left" Margin="319,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
         <Label Content="Employee Id:" HorizontalAlignment="Left" Margin="28,67,0,0" VerticalAlignment="Top"/>
         <Label Content="154974" HorizontalAlignment="Left" Margin="111,67,0,0" VerticalAlignment="Top"/>
