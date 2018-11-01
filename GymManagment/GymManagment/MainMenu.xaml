@@ -1,0 +1,22 @@
+﻿<Window x:Class="GymManagment.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GymManagment"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="300" Width="477.67">
+    <Grid>
+        <Button Content="Promotions" HorizontalAlignment="Left" Margin="28,110,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
+        <Button Content="Add Member" HorizontalAlignment="Left" Margin="125,110,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
+        <Button Content="Shop" HorizontalAlignment="Left" Margin="222,110,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
+        <Button Content="Create Schedule" HorizontalAlignment="Left" Margin="319,110,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
+        <Button Content="Check-In" HorizontalAlignment="Left" Margin="28,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
+        <Button Content="Renew Member" HorizontalAlignment="Left" Margin="125,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
+        <Button Content="Logs" HorizontalAlignment="Left" Margin="222,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
+        <Button Content="Sign Out" HorizontalAlignment="Left" Margin="319,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
+        <Label Content="Employee Id:" HorizontalAlignment="Left" Margin="28,67,0,0" VerticalAlignment="Top"/>
+        <Label Content="154974" HorizontalAlignment="Left" Margin="111,67,0,0" VerticalAlignment="Top"/>
+        <Label Content="Main Menu" HorizontalAlignment="Left" Margin="28,26,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+    </Grid>
+</Window>
