@@ -18,7 +18,6 @@ E:\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\obj\Debug\AddEditDialog.baml
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\bin\Debug\Day08CarsDB.exe.config
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\bin\Debug\Day08CarsDB.exe
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\bin\Debug\Day08CarsDB.pdb
-C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\obj\Debug\Day08CarsDB.csprojResolveAssemblyReference.cache
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\obj\Debug\AddEditDialog.g.cs
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\obj\Debug\MainWindow.g.cs
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\obj\Debug\App.g.cs
@@ -32,3 +31,4 @@ C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\obj\Debug\Day08CarsDB.csproj.CoreCompileInputs.cache
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\obj\Debug\Day08CarsDB.exe
 C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\obj\Debug\Day08CarsDB.pdb
+C:\Users\0639300\OneDrive - John Abbott College\C#\2018-IPD15-DotNet\Day08CarsDB\Day08CarsDB\obj\Debug\Day08CarsDB.csprojAssemblyReference.cache
