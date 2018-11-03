@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Programming\C#\2018-IPD15-DotNet\GymManagment\GymManagment\obj\Debug\
+E:\C#\2018-IPD15-DotNet\GymManagment\GymManagment\obj\Debug\
 GymManagment
 none
 false
 DEBUG;TRACE
-D:\Programming\C#\2018-IPD15-DotNet\GymManagment\GymManagment\App.xaml
-4448011084
+E:\C#\2018-IPD15-DotNet\GymManagment\GymManagment\App.xaml
+4288262688
 
-12-158802305
+8-1217980811
 131569487696
-MainMenu.xaml;Email.xaml;Logs.xaml;Schedule.xaml;
+Email.xaml;MainMenu.xaml;Logs.xaml;Reservation.xaml;
 
-True
+False
 

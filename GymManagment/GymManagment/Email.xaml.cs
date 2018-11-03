@@ -10,19 +10,26 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace GymManagment
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Email.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Email : Window
     {
-        public MainWindow()
+        public Email(Window parent)
         {
             InitializeComponent();
+            Owner = parent;
         }
+        private void rbMembers_Checked(object sender, RoutedEventArgs e)
+        {
+            cbMembers.Visibility = Visibility.Visible;
+            lblMem.Visibility = Visibility.Visible;
+        }
+
     }
+
 }

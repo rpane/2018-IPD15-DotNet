@@ -5,18 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GymManagment"
         mc:Ignorable="d"
-        Title="MainMenu" Height="300" Width="477.67">
+        Title="MainMenu" Height="345.631" Width="536.893">
     <Grid>
-        <Button Content="Promotions" HorizontalAlignment="Left" Margin="28,110,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
-        <Button Content="Add Member" HorizontalAlignment="Left" Margin="125,110,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
-        <Button Content="Shop" HorizontalAlignment="Left" Margin="222,110,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
-        <Button Content="Create Schedule" HorizontalAlignment="Left" Margin="319,110,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
-        <Button Content="Check-In" HorizontalAlignment="Left" Margin="28,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
-        <Button Content="Renew Member" HorizontalAlignment="Left" Margin="125,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
-        <Button Content="Logs" HorizontalAlignment="Left" Margin="222,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
-        <Button Content="Sign Out" HorizontalAlignment="Left" Margin="319,177,0,0" VerticalAlignment="Top" Width="92" Height="62"/>
+        <Button Content="Send Email" HorizontalAlignment="Left" Margin="28,110,0,0" VerticalAlignment="Top" Width="114" Height="84" Click="Button_Click"/>
+        <Button Content="Add Member" HorizontalAlignment="Left" Margin="149,110,0,0" VerticalAlignment="Top" Width="114" Height="84"/>
+        <Button Content="Shop" HorizontalAlignment="Left" Margin="269,110,0,0" VerticalAlignment="Top" Width="114" Height="84"/>
+        <Button Content="Create Schedule" HorizontalAlignment="Left" Margin="390,110,0,0" VerticalAlignment="Top" Width="114" Height="84"/>
+        <Button Content="Check-In/Check-Out"  HorizontalAlignment="Left" Margin="28,201,0,0" VerticalAlignment="Top" Width="114" Height="85"/>
+        <Button Content="Renew Member" HorizontalAlignment="Left" Margin="149,201,0,0" VerticalAlignment="Top" Width="114" Height="85"/>
+        <Button Content="All Reports" HorizontalAlignment="Left" Margin="269,201,0,0" VerticalAlignment="Top" Width="114" Height="85"/>
+        <Button Content="Sign Out" HorizontalAlignment="Left" Margin="390,201,0,0" VerticalAlignment="Top" Width="114" Height="85"/>
         <Label Content="Employee Id:" HorizontalAlignment="Left" Margin="28,67,0,0" VerticalAlignment="Top"/>
         <Label Content="154974" HorizontalAlignment="Left" Margin="111,67,0,0" VerticalAlignment="Top"/>
         <Label Content="Main Menu" HorizontalAlignment="Left" Margin="28,26,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Button Content="Create Promo" HorizontalAlignment="Left" Margin="390,20,0,0" VerticalAlignment="Top" Width="114" Height="85"/>
     </Grid>
 </Window>

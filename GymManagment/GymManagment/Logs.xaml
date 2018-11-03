@@ -12,12 +12,13 @@
                 <GridView>
                     <GridViewColumn Header="Date" Width="100" DisplayMemberBinding="{Binding Name}" />
                     <GridViewColumn Header="Employee Id" Width="100" DisplayMemberBinding="{Binding Age}" />
-                    <GridViewColumn Header="Function" Width="150" DisplayMemberBinding="{Binding Mail}" />
+                    <GridViewColumn Header="Activity" Width="150" DisplayMemberBinding="{Binding Mail}" />
                 </GridView>
             </ListView.View>
         </ListView>
         <Label Content="Logs" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
         <Button Content="Print" HorizontalAlignment="Left" Margin="377,59,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Export" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="377,96,0,0"/>
 
     </Grid>
 </Window>

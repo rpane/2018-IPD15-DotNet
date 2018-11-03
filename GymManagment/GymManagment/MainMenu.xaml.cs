@@ -23,5 +23,14 @@ namespace GymManagment
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Email em = new Email(this);
+            if(em.ShowDialog() == true)
+            {
+
+            }
+        }
     }
 }
