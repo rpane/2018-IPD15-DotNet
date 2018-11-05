@@ -14,8 +14,8 @@
         <Label Content="Phone No" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="49,217,0,0" Height="25"/>
         <Label Content="Membership Type" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="46,254,0,0" Height="25"/>
         <Label Content="Email Address" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="46,295,0,0" Height="25"/>
-        <Border BorderThickness="1" BorderBrush="Red" Height="192" Margin="398,91,143,0" VerticalAlignment="Top" Width="176">
-            <Image x:Name="imgMem" HorizontalAlignment="Left" Height="192" Margin="-1" VerticalAlignment="Top" Width="176"/>
+        <Border BorderThickness="1" BorderBrush="Red" HorizontalAlignment="Left" Height="230" Margin="342,49,0,0" VerticalAlignment="Top" Width="300">
+            <Image x:Name="imgMem" HorizontalAlignment="Left" Height="230" Margin="-1" VerticalAlignment="Top" Width="300"/>
         </Border>
         <Button x:Name="btnPhoto" Content="Take Photo" HorizontalAlignment="Left" Margin="499,322,0,0" VerticalAlignment="Top" Width="75" Click="btnPhoto_Click"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="167,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
