@@ -1,0 +1,28 @@
+﻿<Window x:Class="EFPeopleCars.CarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EFPeopleCars"
+        mc:Ignorable="d"
+        Title="CarWindow" Height="305.825" Width="320.388">
+    <Grid>
+        <Menu>
+            <MenuItem x:Name="miAddCar" Header="_Add Vehicle" Click="miAddCar_Click" />
+        </Menu>
+        <ListView x:Name="lvCars"  Height="219" VerticalAlignment="Top" Width="Auto" Margin="10,28,10,0" MouseDoubleClick="lvCars_MouseDoubleClick">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="#" Width="20" DisplayMemberBinding="{Binding Id}" />
+                    <GridViewColumn Header="Make Model" Width="170" DisplayMemberBinding="{Binding MakeModel}" />
+                    <GridViewColumn Header="Year of Prod" Width="80" DisplayMemberBinding="{Binding YearOfProduction}" />
+                </GridView>
+            </ListView.View>
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem x:Name="miDeleteCar" Header="Delete" Click="miDeleteCar_Click" />
+                </ContextMenu>
+            </ListView.ContextMenu>
+        </ListView>
+    </Grid>
+</Window>
