@@ -1,23 +1,30 @@
-﻿<Window x:Class="GymManagment.MainWindow"
+﻿<Window x:Class="GymManagment.Email"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GymManagment"
         mc:Ignorable="d"
-        Title="MainWindow" Height="359.061" Width="462.702">
+       Title="MainWindow" Height="404.379" Width="521.964">
     <Grid>
         <Label Content="Send to:" HorizontalAlignment="Left" Margin="17,45,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="Employees" HorizontalAlignment="Left" Margin="75,51,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="Trainers" HorizontalAlignment="Left" Margin="171,51,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="Members" HorizontalAlignment="Left" Margin="249,51,0,0" VerticalAlignment="Top"/>
-        <Label Content="Title:" HorizontalAlignment="Left" Margin="17,76,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="354" Margin="57,79,0,0"/>
-        <Label Content="Text:" HorizontalAlignment="Left" Margin="17,107,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" AcceptsReturn="True" Height="173" Margin="57,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="354"/>
-        <Button Content="Send" HorizontalAlignment="Left" Margin="336,289,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Clear" HorizontalAlignment="Left" Margin="57,289,0,0" VerticalAlignment="Top" Width="75"/>
+        <RadioButton x:Name="rbEmp" Content="Employees" HorizontalAlignment="Left" Margin="75,51,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbTrainers" Content="Trainers" HorizontalAlignment="Left" Margin="171,51,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbMembers" Content="Members" HorizontalAlignment="Left" Margin="249,51,0,0" VerticalAlignment="Top" Checked="rbMembers_Checked"/>
+        <Label Content="Title:" HorizontalAlignment="Left" Margin="17,104,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="354" Margin="57,107,0,0"/>
+        <Label Content="Text:" HorizontalAlignment="Left" Margin="17,135,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" AcceptsReturn="True" Height="173" Margin="57,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="354"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="336,317,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="57,317,0,0" VerticalAlignment="Top" Width="75"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="17,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.371,0.173" FontSize="18" FontWeight="Bold"/>
+        <RadioButton x:Name="rbAll" Content="All" HorizontalAlignment="Left" Margin="326,51,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMem" Content="Choice of Members:" Visibility="Hidden" HorizontalAlignment="Left" Margin="132,71,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbMembers" HorizontalAlignment="Left" Visibility="Hidden" Margin="253,75,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="2">
+            <ComboBoxItem>Close to expiry</ComboBoxItem>
+            <ComboBoxItem>Have training</ComboBoxItem>
+            <ComboBoxItem>All</ComboBoxItem>
+        </ComboBox>
 
     </Grid>
 </Window>
